@@ -4,28 +4,23 @@
 
 ### Steps to reproduce :scroll:
 
-1.
+1.Create Xamarin Android Project on Visual Studio 2017
 
-2.
+2. Add nuget Package for MvvmCross (6.0.1) - Install-Package MvvmCross 
 
-3.
+3. Try to use MvvmCross.Platforms.Android.Core Namespace. 
 
 
 ### Expected behavior :thinking:
-Tell us what should happen
+Should be able to access relevant classes containing in above namespace.
 
 ### Actual behavior :bug:
-Tell us what happens instead
+Failed to load above namespace. 
 
 ### Configuration :wrench:
 
-**Version:** 5.x
+**Version:** 6.0.1
 
 **Platform:** 
-- [ ] :iphone: iOS
 - [ ] :robot: Android
-- [ ] :checkered_flag: WPF
-- [ ] :earth_americas: UWP
-- [ ] :apple: MacOS
-- [ ] :tv: tvOS
-- [ ] :monkey: Xamarin.Forms
+
